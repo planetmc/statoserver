@@ -515,7 +515,7 @@
             statusDetails.textContent = 'Stiamo verificando la connessione al server';
 
             // Check server status
-            fetch("https://mc-api.net/v3/server/ping/planetmc.giize.com")
+            fetch("https://mc-api.net/v3/server/ping/129.152.12.177:25565")
                 .then(response => response.json())
                 .then(data => {
                     if (data.online) {
